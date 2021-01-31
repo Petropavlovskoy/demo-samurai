@@ -3,9 +3,9 @@ import * as axios from "axios";
 
 const instance = axios.create({
     withCredentials: true,
-    baseURL: 'https://petropavlovskoy.github.io/demo-samurai',
+    baseURL: 'https://social-network.samuraijs.com/api/1.0/',
     headers:     {
-        "API-KEY": "7b5c57d6-7576-41e8-bd09-6a3fce35913b"
+        "API-KEY": "0a43845d-8261-4610-989b-1d10430025c3"
     }
 });
 
