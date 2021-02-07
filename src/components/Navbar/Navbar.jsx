@@ -15,20 +15,18 @@ const Navbar = () => {
                 <NavLink to="/Users" activeClassName={s.activeLink}>Users</NavLink>
             </div>
             <div className={`${s.item} ${s.active}`}>
-                <NavLink to="/Navbar"activeClassName={s.activeLink}>News</NavLink>
+                <NavLink to="/Navbar" activeClassName={s.activeLink}>News</NavLink>
 
             </div>
             <div className={`${s.item} ${s.active}`}>
-                <NavLink to="/Navbar"activeClassName={s.activeLink}>Music</NavLink>
+                <NavLink to="/Navbar" activeClassName={s.activeLink}>Music</NavLink>
             </div>
             <div className={`${s.item} ${s.active}`}>
-                <NavLink to="/Navbar"activeClassName={s.activeLink}>Settings</NavLink>
+                <NavLink to="/Navbar" activeClassName={s.activeLink}>Settings</NavLink>
             </div>
 
-            <div className={`${s.item} ${s.active} ${s.navimg}`}>
-                <NavLink to="/Navbar"activeClassName={s.activeLink}>Post1</NavLink>
-                <NavLink to="/Navbar"activeClassName={s.activeLink}>Post2</NavLink>
-                <NavLink to="/Navbar"activeClassName={s.activeLink}>Post3</NavLink>
+            <div className={`${s.item} ${s.active} `}>
+                <NavLink to="/Navbar" activeClassName={s.activeLink}>Post1</NavLink>
             </div>
 
         </nav>

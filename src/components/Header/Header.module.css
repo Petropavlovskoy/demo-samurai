@@ -1,15 +1,22 @@
 .header {
     grid-area: h;
-    background-color: #453e82;
+    background-color: #373B67;
+    position: relative;
+
 }
+
+
 
 .header img {
     width: 60px;
-
+    padding-top: 5px;
 }
 
 .loginBlock{
     float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+
 }
 
 .logo {
