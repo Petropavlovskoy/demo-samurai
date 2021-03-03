@@ -31,7 +31,7 @@ const MyPosts = React.memo(props => {
     let newPostElement = React.createRef();
 
     let onAddPost = (values) => {
-        props.addPost(values.newPostText);
+            props.addPost(values.newPostText);
     }
 
     return (
