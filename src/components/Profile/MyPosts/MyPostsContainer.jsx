@@ -8,14 +8,14 @@ let MapStateToProps=(state) => {
     return {
 
         posts:  state.profilePage.posts,
-        newPostText: state.profilePage.NewPostText
+        newPostText: state.profilePage.newPostText
     }
 }
 let MapDispatchToProps=(dispatch) => {
     return {
 
-             addPost: (NewPostText) => {
-        dispatch(addPostActionCreator(NewPostText));
+             addPost: (newPostText) => {
+        dispatch(addPostActionCreator(newPostText));
     }
     }
 }
